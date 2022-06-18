@@ -14,10 +14,4 @@
 
 `ISO`-bestanden: schijf-images (*dumps*) van wat traditioneel optische media waren zoals CD's en DVD's. Het is dus eigenlijk een soort virtuele CD of DVD.
 
-`Installatie-media`: Vroeger kon je  een Microsoft Windows installatie-CD/DVD kopen (waarschijnlijk nu nog), tegenwoordig werkt bijna iedereen met van het Internet gedownloade `.iso`-bestanden die op een USB-stick kunnen **gebrand** worden. (De term **branden** is nog afkomstig van de tijd dat CD's en DVD's met een LASER-straal op een optische schijf konden worden *gebrand*.) Andere installatie-media van OS's die mogelijk zijn: floppy disks (hopeloos verouderd), rescue-partities op laptops (helaas vaak met nutteloze/irritante custom software waarvoor de laptop-fabrikant is betaald geworden, je kan dit dus gerust beschouwen als promotie/reclame die voorgeïnstalleerd op je laptop aanwezig is - een ethisch twijfelachtige praktijk!), netwerk-installs, ...
-
-
-
-
-
-
+`Installatie-media`: Vroeger kon je  een Microsoft Windows installatie-CD/DVD kopen (waarschijnlijk nu nog), tegenwoordig werkt bijna iedereen met van het Internet gedownloade `.iso`-bestanden die op een USB-stick kunnen **gebrand** worden. (De term **branden** is nog afkomstig van de tijd dat CD's en DVD's met een LASER-straal op een optische schijf konden worden *gebrand*.) Andere installatie-media van OS's die mogelijk zijn: floppy disks (hopeloos verouderd), netwerk-installs, rescue-partities op laptops (helaas vaak met nutteloze/irritante custom software waarvoor de laptop-fabrikant is betaald geworden, je kan dit dus gerust beschouwen als promotie/reclame die voorgeïnstalleerd op je laptop aanwezig is - een ethisch twijfelachtige praktijk!), , ...

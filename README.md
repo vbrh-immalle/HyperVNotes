@@ -16,8 +16,14 @@ Is het waar dat Hyper-V de basis vormt van vele bedrijfsnetwerken en data-center
 Zie [README](Hyper-V-management/README.md)
 
 *Ok, knap allemaal van Hyper-V maar nu wil ik eerst op de meest eenvoudige manier een VM opstarten en proberen hoe dit allemaal werkt. Hoe doe ik dat best?*
-Hopelijk heb je altijd al eens een gratis Linux-OS met een grafische omgeving willen opstarten, want dat gaan we nu doen!
+Hopelijk heb je altijd al eens een gratis Linux-OS met een grafische omgeving willen opstarten, want dat gaan we nu doen! En mits je hierna zelf nog wat zoek- en experimenteerwerk verricht, ga je mogelijk zelfs (oude) PC-hardware kunnen diagnosticeren of bestanden van oude kapotte computers kunnen *recoveren*.
 Zie [README](LinuxLiveCD/README.md)
+
+De verschillen tussen **Generatie 1**- en **Generatie 2**-machines zijn een korte maar interessante case-study om even stil te staan bij de vooruitgang van computertechnologie, o.a. op het vlak van **security** en **storage**.
+Zie [README](Gen1VSGen2/README.md)
+
+De verschillende VM-generaties geven ons een goede reden om eens terug te blikken naar de geschiedenis van enkele moederborden. Let vooral op de schijf-controllers!
+Zie [README](MoederbordGeschiedenis/README.md)
 
 
 

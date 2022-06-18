@@ -430,9 +430,40 @@ Je zal misschien merken dat de bewegingen van de muis of andere zaken niet onmid
 
 > Yep. Nu zal je wel blij zijn dat je die `CTRL-ALT-LINKS`-shortcut nog kent! Tenzij natuurlijk Xubuntu ondertussen door heeft dat het in Hyper-V draait en een betere werking van de muis inschakelt.
 
+# Play! Of toch niet?
+Als je geluk hebt, werkt de *LiveCD/Try*-versie van Xubuntu *out-of-the-box*. Exploreer de UI een beetje. Speel een spelletje. Start een teksteditor of misschien zelfs een tekstverwerker of spreadsheet (zoals die van LibreOffice). 
+
+Of had je bij de keuze van het netwerk gekozen voor **Niet verbonden**? Dan kan je nu misschien eens kiezen voor de **Default Switch** en een webbrowser uitproberen!
+
+![](VMSettings-network.png)
+
+> Je kan zelfs van een **draaiende** machine een andere *virtuele switch* kiezen. Dit is immers hetzelfde als het **inpluggen van een netwerkkabel** in een ander apparaat: iets wat je ook kan doen bij een draaiende PC of laptop. Het hangt dan wel van allerlei factoren (instelling van het gast-OS, configuratie van een DHCP-server, ...) af of dit meteen zal werken maar **vaak is geen herstart** nodig wanneer je de *Default Switch* inplugt.
+
+Werkt het toch niet? Krijg je een zwart scherm? Misschien heb je net pech met deze specifieke Linux-versie van een bepaalde Linux-distro of meerbepaald met de grafische schil ervan. Je hebt meer kans op succes wanneer je kiest voor een Linux-distro die focust op LiveCD's (en niet een combinatie van LiveCD en installer) en nog meer kans met een tekst-gebaseerde Linux-distro's i.p.v. (gebruiksvriendelijke) distro's met een GUI.
+
+Geef daarom niet op en probeer enkele andere `.iso`'s, zoals ééntje uit één van deze lijsten: 
+
+- https://en.wikipedia.org/wiki/List_of_live_CDs
+- https://www.linux.com/training-tutorials/five-best-linux-live-cds/
+- https://livecdlist.com/
+- ...
+
+Je zal merken dat een aantal van deze distro's zich profileren als een **rescue-disk**, bedoeld om een PC die niet meer opstart nog te redden of om gegevens van een harde schijf van zo'n PC nog op een USB-disk te kunnen zetten! Uiteraard moet je voor een échte *rescue-operatie* dan wel een **echte bootable USB-disk** maken, waarvoor je dan weer tooltjes nodig hebt zoals:
+
+- https://rufus.ie/nl/
+- https://www.balena.io/etcher/
+- https://unetbootin.github.io/
+- ...
 
 
+Hopelijk heeft deze oefening je wat inspiratie gegeven om zelf verder te exploreren!
 
+# Conclusies
+Je kent nu het belang van de **basisinstellingen van een VM**, zoals enkele elementaire hardware-instellingen en de **automatische start- en stop-acties** en de (automatische) **controlepunten**.
+
+Met onze exploraties van de configuratiebestanden (in onze **ordelijke mappenstructuur**) en de random (*UUID*-)mapnamen die Hyper-V gebruikt, hebben we laten zien dat het belangrijk is dat VM's een uniek **ID** hebben en dat we hier best aandacht voor hebben, zeker als we VM's zouden gaan exporteren/importeren.
+
+*Last but not least* heb je kennis gemaakt met **installatie-CD's**, **LiveCD's** en **rescue-CD's**. Je kent nu ook een werkwijze om van Internet gedownloade (bootable) `.iso`'s uit te testen op virtuele hardware, vooraleer je overgaat tot het maken van een fysieke **(installatie-/live-/rescue-)USB-disk**. Met zo'n bootable USB-disks in je *toolbelt*, ben je nu misschien wel in staat om (oude) computer-hardware te diagnosticeren en zelfs repareren!
 
 
 

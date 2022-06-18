@@ -31,9 +31,11 @@ Een Hypervisor installeren is dus best een ingrijpende handeling (hoewel dit op 
 # Hypervisor en tools installeren in Windows
 
 Een Windows OS bevat optionele toepassingen die we kunnen installeren via het hulpprogramma `OptionalFeatures.exe`:
+
 ![](OptionalFeatures.png)
 
 > Met het commando `Get-Command OptionalFeatures.exe` zien we dat dit inderdaad een programma is dat geïnstalleerd staat in de map van Windows zelf:
+> 
 > ![](OptionalFeatures-path.png)
 
 
@@ -67,12 +69,14 @@ Elke optie installeert en configureert een aantal zaken. We overlopen deze even.
 ## 1. Het grafische beheerprogramma voor Hyper-V-servers
 
 Het commando `virtmgmt.msc` is nu geïnstalleerd:
+
 ![](GetCommand-virtmgmt.png)
 ![](virtmgmt-gui.png)
 
 Net zoals vele andere Windows-tools (zoals de disk management console `diskmgmt.msc` of de device manager `devmgmt.msc`) is dit een typische management console die dus ook via `mmc.exe` kan worden benaderd.
 
 Wanneer we `virtmgmt.msc` uitvoeren, zien we dit venster:
+
 ![](virtmgmt-chooseserver.png)
 
 In bovenstaande afbeelding is een server (met de naam `DESKTOP-1C2TJOI`) aanwezig maar dit is enkel het geval als je deze zelf hebt toegevoegd of als er een Hypervisor op je lokale machine geïnstalleerd is (stap 3)!
@@ -82,6 +86,7 @@ Je kan in `virtmgmt.msc` dus ook verbinding maken met **meerdere** Hyper-V serve
 Wanneer we verbinding maken met een Hyper-V server, kunnen we vanuit `virtmgmt.msc` deze server beheren.
 
 Hier zie je b.v. de Hyper-V-server die draait op de machine `DESKTOP-1C2TJOI`. Je ziet trouwens een heleboel geïnstalleerde VM's staan (die momenteel allemaal uitgeschakeld zijn):
+
 ![](virtmgmt-allVMs.png)
 
 ## 2. De Powershell-beheer-commando's voor Hyper-V-servers
@@ -89,10 +94,12 @@ Hier zie je b.v. de Hyper-V-server die draait op de machine `DESKTOP-1C2TJOI`. J
 Wanneer deze optie werd geïnstalleerd via `OptionalFeatures.exe`, zullen er een heleboel nieuwe Powershell-commando's beschikbaar zijn.
 
 Je kan een overzicht opvragen hiervan met `Get-Command -Module Hyper-V`:
+
 ![](GetCommand-ModuleHyperV.png)
 
 > *Met dit commando kan je zelfs zien dat er in dit geval 238 Powershell-commando's werden toegevoegd:
-![](GetCommand-ModuleHyperV-Count.png)*
+>
+> ![](GetCommand-ModuleHyperV-Count.png)*
 
 Één van de basiscommando's is `Get-VM`, wat je dezelfde lijst met VM's geeft als die we in `virtmgmt.msc` zagen:
 
@@ -117,6 +124,7 @@ Of als we b.v. willen focussen op enkel de paden en het type schijf-controller:
 De echte Hyper-V Hypervisor draait dus ergens in de dieptes van het OS, eigenlijk zelfs nog ONDER het OS. In het host-OS draaien er dan nog enkele hulp-services waarmee de hypervisor wordt beheerst.
 
 Vanuit `services.msc` kunnen we een aantal v.d. Hyper-V-services waarnemen:
+
 ![](servicesmsc.png)
 
 In `virtmgmt.msc` kunnen we de Hyper-V-service in zijn geheel starten of stoppen:
@@ -148,4 +156,3 @@ We zien dat Hyper-V een zeer professionale virtualisatie-oplossing is waarmee OS
 Wat het beheren van Hyper-V-servers betreft, kan je scenario's bedenken waarbij in een bedrijfsnetwerk op verschillende fysieke PC's Hyper-V-servers draaien die allemaal vanuit 1 centrale Hyper-V-manangement-console kunnen beheerd worden.
 
 Dankzij Powershell-commando's wordt het zelfs mogelijk om honderden of duizenden Hyper-V-servers gelijktijdig aan te sturen of saaie repetitieve taken te automatiseren.
-
