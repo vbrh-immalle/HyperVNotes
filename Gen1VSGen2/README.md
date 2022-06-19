@@ -88,8 +88,9 @@ Waarom werkt dit dan niet?
 
 Er draait op de VM's geen OS dat luistert naar het *afsluit-signaal* en er kan bijgevolg dus niet *netjes* worden afgesloten.
 
-Net zoals bij een echte PC die vasthangt op een BIOS- of UEFI-startscherm, zit er niets anders op dat de PC uit te schakelen (soms door de power-knop langer ingedrukt te houden) of te herstarten (b.v. met `CRTL-ALT-DEL`: iets wat de meeste BIOS/UEFI's wel ondersteunen).
+> Net zoals bij een echte PC die vasthangt op een BIOS- of UEFI-startscherm, zit er niets anders op dat de PC uit te schakelen (soms door de power-knop langer ingedrukt te houden) of te herstarten (b.v. met `CRTL-ALT-DEL`: iets wat de meeste BIOS/UEFI's wel ondersteunen).
 
-
+Herstarten kan natuurlijk ook altijd door een `CTRL-ALT-DEL`-signaal (AKA **warme reboot**) te sturen naar een VM (maar dan met `CTRL-ALT-END`):
+![](CTRLALTEND.png)
 
 
