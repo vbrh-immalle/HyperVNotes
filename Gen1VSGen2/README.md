@@ -67,9 +67,28 @@ We krijgen het te zien als in geen enkele van de schijven uit het lijstje van de
 Hetzelfde probleem ziet er op een Gen2-VM heel anders uit:
 ![](Gen2-Bootscreen.png)
 
+# Afsluiten vs Uitschakelen
+Probeer tot slot beide VM's **af te sluiten**.
 
+Je zal deze foutmelding krijgen:
 
+![](ShutdownError.png)
 
+Er ziet dus niets anders op dan deze machines **uit te schakelen**.
+
+Maar de integration service draait toch?
+
+![](AfsluitenIntegrationService.png)
+
+> Wanneer deze integratie-service is uitgeschakeld, krijgen we van Hyper-V deze foutmelding:
+
+> ![](AfsluitenIntegrationServiceDisabled.png)
+
+Waarom werkt dit dan niet?
+
+Er draait op de VM's geen OS dat luistert naar het *afsluit-signaal* en er kan bijgevolg dus niet *netjes* worden afgesloten.
+
+Net zoals bij een echte PC die vasthangt op een BIOS- of UEFI-startscherm, zit er niets anders op dat de PC uit te schakelen (soms door de power-knop langer ingedrukt te houden) of te herstarten (b.v. met `CRTL-ALT-DEL`: iets wat de meeste BIOS/UEFI's wel ondersteunen).
 
 
 
