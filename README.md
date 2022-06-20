@@ -25,6 +25,14 @@ Zie [README](Gen1VSGen2/README.md)
 De verschillende VM-generaties geven ons een goede reden om eens terug te blikken naar de geschiedenis van enkele moederborden. Let vooral op de schijf-controllers!
 Zie [README](MoederbordGeschiedenis/README.md)
 
+Wist je dat 1 IDE-controller maar 2 schijven kan aansturen? Weet je ook waarom?
+Zie [README](DisksEnControllers/README.md)
+
+Windows Server 2016 Core is voor je RAM- en CPU-belastingen nog steeds één van de meest zuinige **recente** Windows-OS's. Als je experimenten wil doen met 2 machines in een virtueel netwerk op hardware die niet zo krachtig is, kan deze klaargemaakte VHD van pas komen! Het is trouwens niet omdat het een **Core**-editie is, dat je er geen grafische programma's op kan draaien!
+Zie [README](WindowsServer2016Core/README.md)
+
+
+
 
 
 
